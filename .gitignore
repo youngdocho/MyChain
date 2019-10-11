@@ -1,48 +1,29 @@
-
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-*.pyc
-*.pem
-
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.rar
-#*.tar
-*.zip
-
-# Logs and databases #
-######################
-*.log
-*.sqlite
-
-# OS generated files #
-######################
+# file: ~/.gitignore_global
 .DS_Store
-ehthumbs.db
-Icon
-Thumbs.db
-.tmtags
 .idea
-tags
-vendor.tags
-tmtagsHistory
-*.sublime-project
-*.sublime-workspace
-.bundle
 
-*.egg-info
-.pem
-.db
-*.pem
+# Byte-compiled / optimized / DLL files
+__pycache__/
+./__pycache__/
+./*/__pycache__/
+*.py[cod]
+*$py.class
+
+#Environments
+
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
